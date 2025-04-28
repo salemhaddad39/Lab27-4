@@ -24,6 +24,6 @@ void function({required int orderId, required int price, String? ordername}) {
     print('Order Name: $ordername');
   }
   print('Original Price: $price');
-  print('New Price after Tax: ${newPrice.toStringAsFixed(2)}');
+  print('New Price after Tax: $newPrice');
   print('------------------------------');
 }
